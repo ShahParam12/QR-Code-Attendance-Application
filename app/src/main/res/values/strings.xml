@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QR Code</string>
+    <array name="login">
+        <item>Teacher Login</item>
+        <item>Student Login</item>
+    </array>
+
+</resources>

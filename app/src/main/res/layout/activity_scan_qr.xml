@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black_shade_1"
+    android:orientation="vertical"
+    tools:context=".ScanQR">
+
+    <ImageView
+        android:id="@+id/textscan"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/scan"
+        android:text="Attendance Scanner"
+        android:textColor="@color/Yellow"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+    <EditText
+        android:id="@+id/Namescan"
+        android:layout_marginBottom="20sp"
+        android:layout_below="@+id/textscan"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Student Name"/>
+
+    <EditText
+        android:id="@+id/idnummberscan"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Namescan"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20sp"
+        android:hint="Id Number"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idnummberscan"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="70dp"
+        android:text="Scan QR "
+        android:textColor="@color/black" />
+
+</RelativeLayout>
